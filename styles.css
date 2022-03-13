@@ -22,13 +22,15 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    padding: 4em;
+    padding: 5em;
     background-color: var(--VeryLightGray);
 }
 
 /*header*/
 
 .header{
+    gap: 30px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,6 +173,10 @@ body{
 
 /*responsive design*/
 @media (max-width: 750px){
+    
+    body{
+        padding: 2.5em;
+    }
   
     /*header*/
     .content{
